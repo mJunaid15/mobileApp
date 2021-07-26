@@ -1,0 +1,509 @@
+*{ margin: 0; padding: 0; }
+header{
+    width: 100%;
+    height: 460px;
+     background-image: url('./img/hero-bg.png');
+    background-size: cover;
+
+
+
+}
+.headerMenu{
+    background-color: rgba(255, 30, 30, 0.748);
+   width: 100%;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   position: relative;
+   
+
+}
+#iconbar{
+   
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+     right:  20px;
+     visibility: hidden;
+     opacity: 0;
+   
+}
+.logo{
+    width: 20%;
+    text-align: center;
+}
+.logo img{
+    height: 40px; ;
+}
+
+.menuList{
+    width: 80%;
+    text-align: right;
+    padding-right: 50px;
+}
+.menuList li{
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 50px;
+    text-shadow: 2px 2px 8px black;
+}
+.menuList li a{
+    color: white;
+    text-decoration: none;
+}
+.menuList li a:hover{
+    color: yellow;
+}
+.headerContent{
+    width: 100%;
+    height: 350px;
+    text-shadow: 2px 2px 8px black;
+}
+.content{
+    width: 40%;
+    float: left;
+   color: white;
+    padding-left: 165px;
+    padding-top: 60px;
+    font-size: 20px;
+
+}
+.contentImg{
+    width: 40%;
+    float: right;
+    padding-left: 100px;
+    padding-top: 60px;
+    
+}
+.vectorPic{
+    height: 300px;
+    width: 200px;
+   
+}
+.mainContent{
+    width: 100%;
+   
+}
+.Txt{
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    
+}
+.imgArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.user1{
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 10px 18px grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.user2{
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 10px 18px grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+
+}
+.user3{
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 10px 18px grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.textPara{
+    text-align: center;
+    
+}
+.jokerContent{
+    width: 100%;
+    height: 300px;
+    background-image: url('./img/nose-bg.png');
+   background-size: 100% 100%;
+}
+.devAbou{
+    color: white;
+    padding: 8px;
+    padding-left: 83px;
+    font-size: 23px;
+    font-style: italic;
+    padding-top: 60px;
+    text-shadow: 2px 2px 8px black;
+}
+.RED{
+    color: red;
+    font-style: italic;
+}
+.section4{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to right ,black , rgb(70, 24, 24));
+    
+}
+.footerLogo{
+    width: 100%;
+    height: 108px;
+    background-color: rgba(75, 73, 73, 0.179);
+}
+.logimg{
+    padding-left: 70px;
+    padding-top: 30px;
+    height: 60px;
+    width: 150px;
+
+}
+.leftContent{
+    width: 20%;
+    float: left;
+    padding-left: 70px;
+    color: whitesmoke;
+    font-style: italic;
+  
+}
+.rightContent{
+    width: 70%;
+
+    float: right;
+    color: whitesmoke;
+    font-style: italic;
+    
+    
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    
+
+  
+   
+    }
+ 
+
+  @media (max-width:990px){
+    .menuList ul{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    #iconbar{
+        visibility: visible;
+        opacity: 1;
+
+    }
+    .menuList.responsive{
+        width: 20%;
+        
+        background-color: rgba(255, 0, 0, 0.823);
+        border-radius: 5px;
+        position: absolute;
+        left: 695px;
+        top: 28px;
+       padding-bottom: 100px;
+        z-index: 11111;
+    }
+    .menuList.responsive ul{
+        opacity: 1;
+        visibility: visible;
+       
+
+    }
+    .menuList.responsive ul li{
+        float: left;
+        display: block;
+        padding: 30px;
+        text-align: center;
+        
+    }
+    .menuList.responsive ul li:hover{
+        background-color: grey;
+        text-shadow: 3px 4px 1px black;
+        color: chartreuse;
+
+    }
+    .contentImg{
+        width: 30%;
+      
+    }
+    .rightContent{
+        width: 61%;
+   
+        
+    }
+    .devAbou{
+        padding-top: 20px;
+    }
+
+
+  }
+  @media (max-width:800px){
+    .menuList.responsive{
+        
+        left: 540px;
+  }
+  .vectorPic{
+    height: 220px;
+    width: 150px;
+}
+    
+  
+
+.content{
+    width: 30%;
+  
+    padding-left: 100px;
+    padding-bottom: 40px;
+    font-size: 17px;
+    
+}
+.logo{
+    padding-left: 95px;
+}
+.logo img{
+    height: 35px; ;
+}
+.imgArea img{
+    height: 95px;
+    width: 95px;
+}
+.textPara{
+    font-size: 15px;
+}
+.devAbou{
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 18px;
+    
+}
+.logimg{
+    padding-left: 70px;
+    padding-top: 30px;
+    height: 50px;
+    width: 150px;
+
+}
+
+
+}
+  @media (max-width:774px)
+  {
+    .rightContent{
+        width: 50%;
+
+    }
+
+  }
+  @media (max-width:736px)
+{
+    .content{
+        width: 30%;
+        padding-left: 100px;
+        font-size: 15px;
+    
+    }
+    .menuList.responsive{
+       
+        left: 485px;
+        top: 34px;
+       
+    }
+
+}
+@media (max-width:606px)
+{
+    .menuList.responsive{
+       
+        left: 384px;
+        top: 34px;
+       
+    }
+    .Txt{
+        font-size: 15px;
+    }
+    .textPara{
+        font-size: 13px;
+    }
+    .devAbou{
+        padding-top: 70px;
+    
+        padding-left: 40px;
+        font-size: 15px;
+        
+    }
+
+}  
+
+@media (max-width:498px){
+    .contentImg{
+        width: 10%;
+       
+        padding-right: 120px;
+      
+    }
+    .content{
+        width: 20%;
+        padding-left: 90px;
+        font-size: 13px;
+        
+    
+    }
+    .menuList.responsive{
+       
+        left: 295px;
+    }
+    .devAbou{
+        padding-top: 65px;
+    
+        padding-left: 30px;
+        font-size: 13px;
+        
+    }
+    .logimg{
+        
+        height: 25px;
+        width: 100px;
+        
+    }
+    .leftContent{
+        font-size: 10px;
+    }
+    .rightContent{
+        font-size: 10px;
+    }
+    .footerLogo{
+        width: 100%;
+        height: 60px;
+        
+        
+    }
+    .section4{
+        height: 120px;
+    }
+}
+@media (max-width:474px){
+    .imgArea{
+        width: 100%;
+        display: block;
+        text-align: center;
+        /* padding-left: 170px; */
+    }
+    .user1{
+        width: 100%;
+        background: linear-gradient(to bottom, #ff9966 0%, #cc99ff 100%);
+        padding-top: 20px;
+        color: whitesmoke;
+        text-shadow: 2px 2px 8px black;
+        padding-bottom: 20px;
+    }
+    .user2{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: whitesmoke;
+        text-shadow: 2px 2px 8px black;
+        background: linear-gradient(to bottom, #ffffff 0%, #666699 100%);
+    
+    }
+    .user3{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: whitesmoke;
+        text-shadow: 2px 2px 8px black;
+        background: linear-gradient(to bottom, #ccffff 0%, #669999 100%);
+    }
+    .textPara{
+        font-size: 13px;
+        
+    }
+    .devAbou{
+        text-shadow: 2px 2px 8px black;
+        
+    }
+    .menuList.responsive{
+       
+        left: 275px;
+    }
+    
+}
+@media (max-width:962px){
+    .menuList.responsive{
+       
+        left: 670px;
+    }
+    
+
+}
+@media (max-width:375px)
+{
+    .menuList.responsive{
+       
+        left: 200px;
+    }
+    .content{
+     width: 10%;
+
+       
+        background-color: rgba(255, 105, 180, 0.665);
+        font-size: 8px;
+    }
+    .contentImg{
+
+        width: 1%;
+        
+        
+    }
+    .vectorPic{
+        height: 200px;
+        width: 105px;
+        
+        
+    }
+    .logimg{
+       
+        height: 20px;
+        width: 50px;
+       
+    
+    }
+    .leftContent{
+        width: 20%;
+       
+        font-size: 8px;
+      
+    }
+    .rightContent{
+        width: 60%;
+        font-size: 8px;
+
+    }
+    .section4{
+       
+        height: 120px;
+     
+        
+    }
+    .footerLogo{
+       
+        height: 50px;
+        
+    }
+    
+}
